@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Katy Stuparu - SISP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/favicon.ico">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body class="webpage">
+
+<!-- Navigation bar -->
+<div id="nav-placeholder"></div>
+<script>
+    $(function(){
+        $("#nav-placeholder").load("nav.html");
+    });
+</script>
+
+<!-- Heading -->
+<div class="heading">
+    <h1>Senior Independent Study Project (SISP)</h1>
+</div>
+
+<!-- Text -->
+<div class="text">
+    <div class="floatleft" style="width:45%;">
+        <h2>Digestive System Tracking App</h2>
+        <p>Mass Academy seniors complete a 100-hour independent study project on a topic of their choice. I chose to use
+            my independent study project to continue building my software development skills. My final presentation for
+            this project is on the right and my code is on
+            <a class="links" target="_blank" href="https://github.com/kastuparu/DigestiveSystem">GitHub.</a></p>
+        <p>My project was creating a mobile iOS app for tracking digestive symptoms. Throughout this project, I learned
+            how to use Swift and SwiftUI, which are tools for developing iOS apps. I also learned how to use and
+            integrate a SQLite database for an application. I also learned more about time and project management.</p>
+    </div>
+    <div class="floatright" style="width:45%;">
+        <iframe src="massacademy-cs/SISP_Presentation.pdf" style="width:100%;"></iframe>
+    </div>
+</div>
+
+<!-- Footing -->
+<div id="footing-placeholder"></div>
+<script>
+    $(function(){
+        $("#footing-placeholder").load("footing.html");
+    });
+</script>
+
+</body>
+
+</html>

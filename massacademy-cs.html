@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Katy Stuparu - Computer Science</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/favicon.ico">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body class="webpage">
+
+<!-- Navigation bar -->
+<div id="nav-placeholder"></div>
+<script>
+    $(function(){
+        $("#nav-placeholder").load("nav.html");
+    });
+</script>
+
+<!-- Heading -->
+<div class="heading">
+    <h1>Computer Science</h1>
+</div>
+
+<!-- Text -->
+<div class="text">
+    <p>In CS, Mrs. Taricco has taught us how to use HTML (Hypertext Markup Language) and CSS
+        (Cascading Style Sheets) while creating our own personal websites. We also learned how
+        to code Java programs. We wrote many programs in each unit to help us develop problem-solving
+        and logical thinking skills. Below are two of my favorite programs, which involved utilizing
+        Applets (Java version 1.8). Visit my <a class="links" href="projects-apps4good.html">Apps for Good</a>
+        page to learn about my group application project I did in D term.</p>
+
+    <div class="floatleft" style="width:45%;">
+        <h2>LineArtGraphics</h2>
+        <p>LineArtGraphics is a class that creates an image with only straight lines.
+            It was the lab for the Iterations unit when we learned about for and while loops. For this lab,
+            I controlled the start and end point of each line using an (x, y) coordinate that has a fixed
+            part and an incremented or decremented (by a constant value) part. Inside of the original
+            drawing, I sized down the original and positioned it in the center of the drawing.</p>
+        <img alt="LineArtGraphics image" src="massacademy-cs/LineArtGraphics.png" style="width: 80%;">
+    </div>
+
+    <div class="floatright" style="width:45%;">
+        <h2>Stars</h2>
+        <img alt="Randomized stars" src="massacademy-cs/Stars.png" style="width: 80%;">
+        <p>Stars was my favorite exercise from the Static Arrays unit in which we learned
+            how to use Arrays. The program prints ten stars of a random size, location, and color. I created
+            a variable for size and center of the star and used those with trigonometric ratios to pinpoint
+            the location of each point of the star. Creating random RGB values allowed me to color in each
+            star, making it more visually appealing.</p>
+    </div>
+</div>
+
+<!-- Footing -->
+<div id="footing-placeholder"></div>
+<script>
+    $(function(){
+        $("#footing-placeholder").load("footing.html");
+    });
+</script>
+
+</body>
+
+</html>

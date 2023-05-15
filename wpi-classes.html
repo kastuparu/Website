@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Katy Stuparu - WPI Classes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/favicon.ico">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body class="webpage">
+
+<!-- Navigation bar -->
+<div id="nav-placeholder"></div>
+<script>
+    $(function(){
+        $("#nav-placeholder").load("nav.html");
+    });
+</script>
+
+<!-- Heading -->
+<div class="heading">
+    <h1>WPI Classes</h1>
+</div>
+
+<!-- Text -->
+<div class="text">
+    <p>I've been taking classes at Worcester Polytechnic Institute since the fall of 2021, my senior year at Mass
+        Academy, when I dual-enrolled at WPI. I'm working towards a Bachelor's degree in Computer Science and
+        Robotics Engineering and a Master's degree in Computer Science. I aim to graduate in 2026. Below are some
+        coursework highlights from the classes I've taken so far. All course descriptions can be found
+        <a class="links" target="_blank" href="https://courselistings.wpi.edu/">here</a>.</p>
+
+    <h2> Computer Science Coursework</h2>
+
+    <h3>CS 2011 - Introduction to Machine Organization and Assembly Language</h3>
+    <p>This course gave me a lot of insight about the structure and behavior of digital computers. I learned through
+        three projects: Datalab (puzzles for 32-bit integers and 32-bit floats to be completed only with boolean
+        operators), Bomblab (stepping through the x86-64 disassembly to learn how a program works), and Attacklab
+        (exploiting programs through code injection and return-oriented programming) (code available upon request).</p>
+
+    <h3>CS 2303 - Systems Programming Concepts</h3>
+    <p>This course introduced me to programming in C and C++ and to the details of how hardware stores and executes
+        software. I learned about memory management, pointers, the stack, and the heap through several projects (code
+        available upon request).</p>
+
+    <h3>CS 2103 - Accelerated Object-Oriented Design Concepts</h3>
+    <p>This course covered object-oriented design principles and data structures at an accelerated pace. Some of these
+        topics include abstract classes, abstract data types, inner classes (static and non-static), anonymous classes,
+        type-safety and casting, stacks, queues, graphs, hashmaps, trees, heaps and priority queues, binary search
+        trees, and expression trees and grammars. I learned how to implement these design concepts in Java through
+        several projects (code available upon request).</p>
+
+    <h3>CS 1102 - Accelerated Introduction to Program Design</h3>
+    <p>This course taught me to look at program design through a new lens. I learned about lists, iterations, functions,
+        recursion, mutual recursion, generative recursion, tail recursion, lambda functions, binary search trees, AVL
+        trees, graphs, and macros through several projects in Racket (code available upon request).  </p>
+
+    <img class="floatright" alt="RBE 1001 robot" src="wpi-images/WPI_RBE1001.jpg" style="width:40%;">
+    <h2>Robotics Engineering Coursework</h2>
+
+    <h3>RBE 1001 - Introduction to Robotics Engineering</h3>
+    <p>In this course, I learned the basics to robotics engineering through designing and programming a VEX robot with
+        my team to climb up a ramp and score game pieces when teleoperated and autonomously. I learned how to design and
+        analyze electric circuits, use static analysis to determine torque and power requirements, and write programs
+        for performing tasks that involve sensors and actuators.</p>
+
+    <h2>Other Coursework</h2>
+    <p>To help me build skills required for higher level CS and RBE classes, I've been taking classes in electrical
+        engineering, static systems, physics, chemistry, and mathematics (multivariable calculus, ordinary differential
+        equations, linear algebra, statistics, probability, and discrete math). I've also been taking humanities
+        classes in creative writing, English literature, philosophy, psychology, and social science.</p>
+
+</div>
+
+<!-- Footing -->
+<div id="footing-placeholder"></div>
+<script>
+    $(function(){
+        $("#footing-placeholder").load("footing.html");
+    });
+</script>
+
+</body>
+
+</html>

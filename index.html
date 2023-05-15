@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Katy Stuparu - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/favicon.ico">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body class="webpage">
+
+<!-- Navigation bar -->
+<div id="nav-placeholder"></div>
+<script>
+    $(function(){
+        $("#nav-placeholder").load("nav.html");
+    });
+</script>
+
+<!-- Heading -->
+<div class="heading">
+    <h1>Katy Stuparu</h1>
+</div>
+
+<!-- Text -->
+<div class="text">
+    <div class="floatleft" style="width:20%;">
+        <img alt="Me with flowers" src="images/Home_Flowers.jpg" style="width: 100%;">
+    </div>
+    <div class="floatright" style="width:70%;">
+        <p>Hi everyone! I’m Katy, and I’m passionate about changing the world through engineering, learning about
+            technology, and helping others get access to STEM. I am a rising junior studying Computer Science and
+            Robotics Engineering at
+            <a class="links" target="_blank" href="https://www.wpi.edu/"> Worcester Polytechnic Institute (WPI)</a>.
+            I will graduate in 2026 with a BS in Computer Science, BS in Robotics Engineering, and an MS in CS.</p>
+    </div>
+</div>
+
+<!-- Footing -->
+<div id="footing-placeholder"></div>
+<script>
+    $(function(){
+        $("#footing-placeholder").load("footing.html");
+    });
+</script>
+
+</body>
+
+</html>
